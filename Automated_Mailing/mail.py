@@ -20,7 +20,7 @@ for i in range (l):
     msg['To']=to_addr[i]
     msg['Subject']='Just to Check'
 
-    body=name[i]+'Enter your content here' 
+    body=name[i]+'' # Enter your content here
 
     msg.attach(MIMEText(body,'plain'))
 
